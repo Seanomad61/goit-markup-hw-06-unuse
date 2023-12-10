@@ -92,56 +92,57 @@ img {
 }
 
 /* header-styles====================================================== */
+@media screen and (min-width: 320px) {
+  .container {
+    max-width: 320px;
+    height: 56px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-.container {
-  max-width: 320px;
-  height: 56px;
-  padding-left: 16px;
-  padding-right: 16px;
-  margin-left: auto;
-  margin-right: auto;
-}
+  /* mobile-header======================================================= */
+  .menu-styles,
+  .contacts {
+    display: none;
+  }
 
-/* mobile-header======================================================= */
-.menu-styles,
-.contacts {
-  display: none;
-}
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    font-family: "Raleway", sans-serif;
+    color: #4d5ae5;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    /* margin-right: 76px; */
+    /* display: inline-block; */
+  }
 
-.header-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.logo {
-  font-family: "Raleway", sans-serif;
-  color: #4d5ae5;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  /* margin-right: 76px; */
-  /* display: inline-block; */
-}
+  .text-logo {
+    color: #2e2f42;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+  }
 
-.text-logo {
-  color: #2e2f42;
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-}
-
-.mobile-menu-open-btn {
-  background-color: transparent;
-  border: none;
-  padding: 0;
-  color: #111111;
-  line-height: 0;
+  .mobile-menu-open-btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    color: #111111;
+    line-height: 0;
+  }
 }
 
 /* modal-window ==========================================================*/
@@ -506,6 +507,9 @@ img {
     display: none;
   }
   .modal-window-container {
+    display: none;
+  }
+  .header-styles {
     display: none;
   }
 }
