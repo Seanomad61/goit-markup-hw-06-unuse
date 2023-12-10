@@ -91,7 +91,7 @@ img {
   overflow: hidden;
 }
 
-/* header-styles */
+/* header-styles====================================================== */
 
 .container {
   max-width: 320px;
@@ -102,7 +102,7 @@ img {
   margin-right: auto;
 }
 
-/* mobile-header */
+/* mobile-header======================================================= */
 .menu-styles,
 .contacts {
   display: none;
@@ -135,6 +135,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
+
 .mobile-menu-open-btn {
   background-color: transparent;
   border: none;
@@ -142,116 +143,8 @@ img {
   color: #111111;
   line-height: 0;
 }
-/* mobile-menu */
-.mobile-menu-wrapper {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 99999;
-  width: 100%;
-  height: 100%;
-  border-color: #fff;
-  transform: translateX(100%);
-  transition: transform 250ms linear;
-}
-/* mobile-menu-opening-awaiting-js */
-/* .mobile-menu-wrapper.is-open {
-  transform: translateX(0%);
-} */
-.mobile-menu-container {
-  position: relative;
-}
-.mobile-menu-close-btn {
-  position: absolute;
-  top: 20px;
-  right: 25px;
-  background-color: transparent;
-  border: none;
-  padding: 0;
-  color: #111111;
-  line-height: 0;
-}
-.menu-styles {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
-  color: var(--OCEAN, #404bbf);
-  font-family: Roboto;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  letter-spacing: 0.72px;
-  text-transform: capitalize;
-  margin-top: 72px;
-  margin-left: 16px;
-  margin-right: 153px;
-  gap: 40px;
-}
 
-.contacts {
-  width: 193px;
-  height: 72px;
-  font-style: normal;
-  display: flex;
-  align-items: center;
-  margin-left: 16px;
-  margin-top: 168px;
-}
-.contacts-styles {
-  width: 193px;
-  height: 72px;
-  display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 24px;
-}
-
-.address-contacts {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.address-contacts:hover,
-.address-contacts:focus {
-  color: #404bbf;
-}
-
-.social-list {
-  display: inline-flex;
-  min-width: 280px;
-  gap: 40px;
-
-  margin-left: 16px;
-  margin-right: auto;
-  margin-top: 48px;
-  margin-bottom: 40px;
-}
-.social-list-item {
-  width: 40px;
-  height: 40px;
-  flex-shrink: 0;
-}
-
-.social-networks {
-  width: 100%;
-  height: 100%;
-  background-color: #4d5ae5;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.social-networks:hover,
-.social-networks:focus {
-  background-color: #404bbf;
-}
-.icon-colour {
-  fill: #f4f4fd;
-}
-/* modal-window */
+/* modal-window ==========================================================*/
 .modal-window-container {
   position: fixed;
   top: 0;
@@ -265,12 +158,14 @@ img {
   opacity: 0;
   visibility: hidden;
 }
+
 /* awating for JS */
 .modal-window-container.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
 }
+
 .modal-window {
   position: absolute;
   top: 50%;
@@ -485,18 +380,137 @@ img {
   color: #fd9222;
   background-color: #404bbf;
 }
+
+/* mobile-menu ========================================================*/
+@media screen and (max-width: 767px) {
+  .mobile-menu-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    width: 100%;
+    height: 100%;
+    border-color: #fff;
+    transform: translateX(100%);
+    transition: transform 250ms linear;
+  }
+  /* mobile-menu-opening-awaiting-js */
+
+  .mobile-menu-wrapper.is-open {
+    transform: translateX(0%);
+  }
+  .mobile-menu-container {
+    position: relative;
+  }
+  .mobile-menu-close-btn {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    color: #111111;
+    line-height: 0;
+  }
+  .menu-styles {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--OCEAN, #404bbf);
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    margin-top: 72px;
+    margin-left: 16px;
+    margin-right: 153px;
+    gap: 40px;
+  }
+
+  .contacts {
+    width: 193px;
+    height: 72px;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+    margin-top: 168px;
+  }
+  .contacts-styles {
+    width: 193px;
+    height: 72px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .address-contacts {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .address-contacts:hover,
+  .address-contacts:focus {
+    color: #404bbf;
+  }
+
+  .social-list {
+    display: inline-flex;
+    min-width: 280px;
+    gap: 40px;
+
+    margin-left: 16px;
+    margin-right: auto;
+    margin-top: 48px;
+    margin-bottom: 40px;
+  }
+  .social-list-item {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+  }
+
+  .social-networks {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .social-networks:hover,
+  .social-networks:focus {
+    background-color: #404bbf;
+  }
+  .icon-colour {
+    fill: #f4f4fd;
+  }
+}
+
+/* ================================================================== */
+/* tablet-header */
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
   }
+  .mobile-menu-wrapper {
+    display: none;
+  }
 }
-/* tablet-header */
-
+/* tablet-header-styles */
+/* ===================================================================== */
+/* decktop-header */
 @media screen and (min-width: 1440px) {
   .container {
     max-width: 1440px;
   }
 }
-/* tablet-header-styles */
 
-/* desktop-header */
+/* desktop-header-styles */
