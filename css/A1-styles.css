@@ -165,11 +165,11 @@ img {
 
 /* awating for JS=================================== */
 
-/* .modal-window-container.is-open {
+.modal-window-container.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
-} */
+}
 
 /* ============================================================== */
 .modal-window {
