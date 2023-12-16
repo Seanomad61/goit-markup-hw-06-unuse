@@ -236,7 +236,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-/* SECTION-OUR-TEAM=================== */
+/* SECTION-OUR-TEAM-COMMON-STYLES=================== */
 
 .our-team {
   display: block;
@@ -288,7 +288,7 @@ img {
 .list-our-team {
   background-color: #ffffff;
 }
-/* SECTION-OUR-PORTFOLIO=================================== */
+/* SECTION-OUR-PORTFOLIO-COMMON-STYLES=================================== */
 
 .our-portfolio {
   display: block;
@@ -345,7 +345,7 @@ img {
   border-top: none;
 }
 
-/* SECTION-FOOTER========================================== */
+/* SECTION-FOOTER-COMMON-STYLES========================================== */
 .all-right {
   display: block;
   background-color: #2e2f42;
@@ -422,7 +422,7 @@ li {
   fill: #2e2f42;
 }
 
-/* FOOTER-WINDOW============== */
+/* FOOTER-WINDOW-COMMON-STYLES============== */
 
 .footer-window {
   display: block;
@@ -494,3 +494,40 @@ li {
 .footer-window-svg:focus {
   color: #fff;
 } */
+
+/* MEDIA-HEADER======================================= */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .mobile-menu-open-btn {
+    display: none;
+  }
+  .menu {
+    display: flex;
+    gap: 40px;
+    margin-left: 120px;
+  }
+  .link-navigation:hover,
+  .link-navigation:focus {
+    color: #404bbf;
+  }
+  .contacts-styles {
+    display: block;
+    margin-left: 100px;
+  }
+  .address-contacts {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .address-contacts:hover,
+  .address-contacts:focus {
+    color: #404bbf;
+  }
+}
+/* TABLET-HEADER-END============================== */
+
+/* TABLET-HERO===================================== */
