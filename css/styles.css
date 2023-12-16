@@ -527,31 +527,79 @@ li {
   .address-contacts:focus {
     color: #404bbf;
   }
-}
-/* TABLET-HEADER-END============================== */
 
-/* TABLET-HERO===================================== */
-.hero {
-  padding-top: 72px;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/people-office-1.jpg);
-  min-width: 768px;
-  height: 436px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin: 0 auto;
-}
-.hero-title {
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
-  max-width: 496px;
-  margin: 0 auto 56px;
-  padding-left: 50px;
-  padding-right: 50px;
+  /* TABLET-HEADER-END============================== */
+
+  /* TABLET-HERO===================================== */
+  .hero {
+    padding-top: 72px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-1.jpg);
+    min-width: 768px;
+    height: 436px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+  }
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    max-width: 496px;
+    margin: 0 auto 56px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  /* TABLET-SECTION-BENEFITS============================ */
+
+  .diligence-technologies {
+    width: 768px;
+    display: flex;
+    gap: 200px;
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+  .strategy-punctuality {
+    width: 768px;
+    display: flex;
+    gap: 200px;
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+  .benefits-styles {
+    width: 768px;
+    display: block;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .benefits-items {
+    justify-content: space-between;
+    width: 356px;
+    height: 120px;
+  }
+  .list-text {
+    width: 356px;
+    height: auto 72px;
+  }
+  .list-title {
+    width: 264px;
+    height: auto 40px;
+    text-align: left;
+  }
+
+  /* SECTION-OUR-TEAM=================================== */
+  .mark-tom {
+    display: flex;
+  }
+  .camilla-daniel {
+    display: block;
+  }
 }
