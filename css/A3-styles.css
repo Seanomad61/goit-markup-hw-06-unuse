@@ -1,0 +1,368 @@
+body {
+  background-color: #fff;
+  color: #434455;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.section {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* Common-section-three-four-styles */
+.section-title {
+  color: #2e2f42;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.list-title {
+  color: #2e2f42;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.list-text {
+  color: #434455;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+/* END-OF-THE-COMMON-SECTION-STYLES====================== */
+
+/* MOBILE================================================ */
+/* COMMON-HEADER-STYLES=================== */
+.container {
+  display: flex;
+  max-width: 320px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aquamarine;
+}
+.header-page-container {
+  align-items: center;
+  height: 56px;
+}
+
+.menu {
+  display: none;
+}
+
+.contacts-styles {
+  display: none;
+}
+.mobile-menu-open-btn {
+  background-color: transparent;
+  border: none;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: #2e2f42;
+  line-height: 0;
+  margin-left: 138px;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  color: #4d5ae5;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  /* padding-top: 16px;
+  padding-bottom: 16px; */
+}
+
+.text-logo {
+  color: #2e2f42;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+/* END-OF-THE-COMMON-AND-MOBILE-HEADER_STYLES== */
+
+/* SECTION-ONE-HERO-MOBILE-AND-COMMON_STYLES=============== */
+.hero-container {
+  display: block;
+}
+.hero {
+  padding-top: 72px;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office-1.jpg);
+  min-width: 320px;
+  height: 432px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+}
+.hero-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #fff;
+  max-width: 288px;
+  margin: 0 auto 56px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.hero-button {
+  margin: 0 auto;
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background-color: #4d5ae5;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
+/* END-OF-THE-COMMON-AND-MOBILE-SECTION=ONE-HERO-STYLES== */
+
+/* COMMON-AND-MOBILE-SECTION-TWO-BENEFITS==== */
+
+.benefits-list {
+}
+.benefits-container {
+  display: block;
+  /* min-width: 320px; */
+  max-width: 736px;
+  height: 696px;
+  padding-top: 40px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
+
+  gap: 24px;
+}
+
+.benefits-items {
+  width: calc((100% - 32px) / 4);
+}
+.benefits-icons {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+.list-title {
+  width: 288px;
+  height: 40px;
+  color: var(--navy-blue, #2e2f42);
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-right: auto;
+}
+.list-text {
+  width: 288px;
+  height: 120px;
+  align-self: stretch;
+  color: var(--slate, #434455);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* Tablet==================================================== */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  /* TABLET-HEADER================== */
+  .mobile-menu-open-btn {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+    gap: 40px;
+    margin-left: 120px;
+  }
+
+  .link-navigation:hover,
+  .link-navigation:focus {
+    color: #404bbf;
+  }
+  .contacts-styles {
+    display: block;
+    margin-left: 100px;
+  }
+  .address-contacts {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .address-contacts:hover,
+  .address-contacts:focus {
+    color: #404bbf;
+  }
+  /* END-OF-THE-TABLET-HEADER-STYLES======== */
+
+  /* TABLET-HERO-STYLES====================== */
+  /* SECTION-TWO-BENEFITS============================= */
+
+  .diligence-technologies {
+    width: 768px;
+    display: flex;
+    gap: 200px;
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+  .strategy-punctuality {
+    width: 768px;
+    display: flex;
+    gap: 200px;
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+  .benefits-styles {
+    /* width: auto; */
+    width: 768px;
+    display: block;
+    /* background-color: aqua; */
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .benefits-items {
+    justify-content: space-between;
+    width: 356px;
+    height: 120px;
+  }
+  .list-text {
+    width: 356px;
+    height: auto 72px;
+  }
+  .list-title {
+    width: 264px;
+    height: auto 40px;
+    text-align: left;
+  }
+}
+
+/* DESK================================================ */
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+  /* DESK-HEADER-STYLES==================== */
+  .menu {
+    display: flex;
+    gap: 40px;
+    margin-left: 120px;
+  }
+  .contacts-styles {
+    display: flex;
+    margin-left: 400px;
+    gap: 40px;
+  }
+  .benefits-list {
+    min-width: 1440px;
+  }
+  /* END-OF-THE-DESK-HEADER-STYLES=========== */
+
+  /* DESK-HERO-STYLES=================================== */
+}
