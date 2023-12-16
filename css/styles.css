@@ -239,6 +239,7 @@ img {
 /* SECTION-OUR-TEAM=================== */
 
 .our-team {
+  display: block;
   background-color: #f4f4fd;
   padding: 120px 0;
 }
@@ -290,6 +291,7 @@ img {
 /* SECTION-OUR-PORTFOLIO=================================== */
 
 .our-portfolio {
+  display: block;
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -344,17 +346,20 @@ img {
 }
 
 /* SECTION-FOOTER========================================== */
-footer-container {
+.all-right {
+  display: block;
+  background-color: #2e2f42;
+  padding: 100px 0;
+}
+
+.footer-container {
   display: flex;
   align-items: baseline;
 }
 .container-logo {
   margin-right: 120px;
 }
-.all-right {
-  background-color: #2e2f42;
-  padding: 100px 0;
-}
+
 .all-right-logo {
   color: #f4f4fd;
   font-family: "Raleway", sans-serif;
@@ -416,3 +421,76 @@ li {
 .icon-footer-link:hover {
   fill: #2e2f42;
 }
+
+/* FOOTER-WINDOW============== */
+
+.footer-window {
+  display: block;
+  margin-left: 60px;
+}
+
+.footer-window-item {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.footer-window-form {
+  display: flex;
+  gap: 24px;
+}
+.footer-window-name {
+  width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: #ffffff;
+}
+.footer-window-name::placeholder {
+  color: #ffffff;
+}
+.footer-window-button {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+}
+.footer-window-button:hover,
+.footer-window-button:focus {
+  background-color: #31d0aa;
+  color: #2e2f42;
+}
+
+.footer-window-svg {
+  margin-left: 16px;
+  fill: #ffffff;
+}
+.footer-window-button:hover .footer-window-svg,
+.footer-window-button:focus .footer-window-svg {
+  stroke: #2e2f42;
+  fill: #2e2f42;
+}
+/* .footer-window-svg:hover,
+.footer-window-svg:focus {
+  color: #fff;
+} */
