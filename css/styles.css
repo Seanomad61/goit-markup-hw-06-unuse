@@ -602,4 +602,15 @@ li {
   .camilla-daniel {
     display: block;
   }
+  /* SECTION-OUR-PORTFOLIO================================== */
+  .banking-cashless {
+    display: flex;
+  }
+  .meditation-taxi {
+    display: flex;
+  }
+  .screen-online {
+    display: flex;
+  }
+  /* FOOTER====================================================== */
 }
