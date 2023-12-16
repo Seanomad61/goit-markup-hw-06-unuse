@@ -110,7 +110,7 @@ img {
   margin-right: auto;
   display: flex;
   align-items: center;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 .mobile-menu-open-btn {
   background-color: transparent;
@@ -496,19 +496,22 @@ li {
 } */
 
 /* MEDIA-TABLET======================================= */
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
   }
   .mobile-menu-open-btn {
     display: none;
   }
+  .header-page-container {
+    min-width: 768px;
+  }
   .menu {
     display: flex;
     gap: 40px;
     margin-left: 120px;
-  }
-  .link-navigation:hover,
+  } */
+/* .link-navigation:hover,
   .link-navigation:focus {
     color: #404bbf;
   }
@@ -526,12 +529,12 @@ li {
   .address-contacts:hover,
   .address-contacts:focus {
     color: #404bbf;
-  }
+  } */
 
-  /* TABLET-HEADER-END============================== */
+/* TABLET-HEADER-END============================== */
 
-  /* TABLET-HERO===================================== */
-  .hero {
+/* TABLET-HERO===================================== */
+/* .hero-container {
     padding-top: 72px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -554,10 +557,10 @@ li {
     margin: 0 auto 56px;
     padding-left: 50px;
     padding-right: 50px;
-  }
-  /* TABLET-SECTION-BENEFITS============================ */
+  } */
+/* TABLET-SECTION-BENEFITS============================ */
 
-  .diligence-technologies {
+/* .diligence-technologies {
     width: 768px;
     display: flex;
     gap: 200px;
@@ -570,8 +573,8 @@ li {
     gap: 200px;
     margin-right: 16px;
     margin-left: 16px;
-  }
-  .benefits-styles {
+  } */
+/* .benefits-styles {
     width: 768px;
     display: block;
     padding-left: 16px;
@@ -588,22 +591,22 @@ li {
   .list-text {
     width: 356px;
     height: auto 72px;
-  }
-  .list-title {
+  } */
+/* .list-title {
     width: 264px;
     height: auto 40px;
     text-align: left;
-  }
+  } */
 
-  /* SECTION-OUR-TEAM=================================== */
-  .mark-tom {
+/* SECTION-OUR-TEAM=================================== */
+/* .mark-tom {
     display: flex;
   }
   .camilla-daniel {
     display: block;
-  }
-  /* SECTION-OUR-PORTFOLIO================================== */
-  .banking-cashless {
+  } */
+/* SECTION-OUR-PORTFOLIO================================== */
+/* .banking-cashless {
     display: flex;
   }
   .meditation-taxi {
@@ -611,16 +614,17 @@ li {
   }
   .screen-online {
     display: flex;
-  }
-  /* FOOTER================================================ */
-}
+  } */
+
+/* } */
 
 /* MEDIA-DESK================================================= */
-@media screen and (min-width: 1440px) {
+/* @media screen and (min-width: 1440px) {
   .container {
     max-width: 1440px;
-  }
-  .menu {
+  } */
+/* HEADER================== */
+/* .menu {
     display: flex;
     gap: 40px;
     margin-left: 120px;
@@ -637,4 +641,4 @@ li {
     display: flex;
     align-items: baseline;
   }
-}
+} */
